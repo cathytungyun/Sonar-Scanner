@@ -21,7 +21,7 @@ spec:
         app: sonarscanner
     spec:
       containers:
-        - image: cathytung/sonar
+        - image: cathytung/sonarscanner
           imagePullPolicy: Always
           name: sonarscanner
           ports:
