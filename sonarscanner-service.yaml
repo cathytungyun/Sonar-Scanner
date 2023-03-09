@@ -4,6 +4,7 @@ metadata:
   name: sonarscanner
 spec:
   type: LoadBalancer
+  loadBalancerIP: 34.168.169.84
   ports:
     - port:  9000
       protocol: TCP
